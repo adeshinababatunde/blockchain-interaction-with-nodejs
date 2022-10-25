@@ -22,7 +22,7 @@ if (typeof web3 !== 'undefined') {
 
 // LMS.setProvider(web3.currentProvider);
 
-mongodb.connect('mongodb+srv://Adeshina:tunechi1@cluster0.dtmpn.mongodb.net/doxx',
+mongodb.connect('',
 	{
 		useUnifiedTopology: true,
 	}, async (err, client) => {
